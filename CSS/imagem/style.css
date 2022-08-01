@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6{
     color: #787878;
     font-weight: normal;
     margin: 1em 0;
-    /*1em é unidade de medida conforme o tamanho de cada fonte*/
+
 }
 h1{
     font-size: 36px;
@@ -119,17 +119,17 @@ li{
 
 .ul-icons li{
     display: inline-block;
-    /*deixa todos os icones na tabela em linha e continua em bloco*/
+    
     font-size: 2em;
-    /*como é fonte, podemos almentar o tamanho dos icones*/
+    
     color: #49bf9d;
 }
 
-/*formatando as tabelas*/
+
 input, label, textarea, select{
     display: inline-block;
     width: 100%;
-    /*tirando a barra de rolagem*/
+    
     box-sizing: border-box;
 }
 
@@ -141,15 +141,14 @@ input, textarea, select{
     margin-bottom: 15px;
 }
 
-/*selecionando todos os inputs texts*/
+
 input[type="radio"], input[type="checkbox"]{
     width: auto;
 }
 
-/*colocando bordas*/
+
 input:focus, textarea:focus{
     border: 3px solid #49bf9d;
-    /*tirando o padrão de bordas do browser*/
     outline: none;
 }
 
@@ -224,22 +223,22 @@ textarea{
     border-top: 2px solid #666;
 }
 
-/*para selecionar só a primeira borda*/
+
 .table tbody tr:first-child td{
     border-top: 2px solid #666;
 }
 
-/*para selecionar a ultima borda*/
+
 .table tbody tr:last-child td{
     border-bottom: 2px solid #666;
 }
 
-/*para selecionar todas as bordas pares*/
+
 .table tbody tr:nth-child(even) td{
     background: #eee;
 }
 
-/*tirando as bordas da primeira e ultima linha*/
+
 .table-alternate tbody td, .table-alternate tbody tr:first-child td, .table-alternate tbody tr:last-child td{
     border: 1px solid #ddd;
 }
@@ -286,13 +285,13 @@ textarea{
     width: 65%;
     margin-left: 35%;
     padding: 124px 54px 72px;
-    /*tira a barra de rolagem horizontal ajustando a pagina 100%*/
+    
     box-sizing: border-box;
 }
 
 .main-header-link img{
     border-radius: 50%;
-    /*overflow para esoconder a imagem de fundo da foto caso apareça*/
+    
     overflow: hidden;
 }
 
@@ -305,14 +304,14 @@ textarea{
     width: 100%;
 }
 
-/*colocando bordas em todas as colunas das imagens*/
+
 .gallery-thumb img, .gallery-img img{
     margin-bottom: 2%;
     display: inline-block;
     border-radius: 5px;
 }
 
-/*Grid*/
+
 .row{
     overflow: auto;
 }
@@ -322,7 +321,7 @@ textarea{
     float: left;
 }
 
-/*aplicando margem a esquerda no primeiro e segundo filho*/
+
 .col-2:first-child{
     margin-left: 1.5%;
 }
@@ -341,7 +340,7 @@ textarea{
     float: left;
 }
 
-/*para selecionar as colunas 1, 4 e 7 colocar na propriedade multiplos de 3 - 2*/
+
 .col-1-3:nth-child(3n - 2){
     margin-right: 2%;
 }
@@ -350,7 +349,7 @@ textarea{
     margin-left: 2%;
 }
 
-/*seleciona os filhos 2 e depois o 3*/ /*seleciona os filhos 3 e 2*/
+
 .col-2-3 + .col-1-3, .col-1-3 + .col-2-3{
     margin-left: 2%;
 }
